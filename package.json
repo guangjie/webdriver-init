@@ -1,0 +1,22 @@
+{
+  "name": "mdxintegrationtest",
+  "version": "0.0.1",
+  "description": "An integration testing suite for Modix Frontend and Backend systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "wdio-allure-reporter": "^0.1.2",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.8.0"
+  },
+  "dependencies": {
+    "selenium-standalone": "^6.9.0"
+  }
+}
